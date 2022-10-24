@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="NetClientSocketProject\**" />
+    <Compile Remove="NetServerSocketProject\**" />
+    <EmbeddedResource Remove="NetClientSocketProject\**" />
+    <EmbeddedResource Remove="NetServerSocketProject\**" />
+    <None Remove="NetClientSocketProject\**" />
+    <None Remove="NetServerSocketProject\**" />
+  </ItemGroup>
+
 </Project>
